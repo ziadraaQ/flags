@@ -1,5 +1,3 @@
-// Roblox Version: version-26c90be22e0d4758
-// Byfron Version: ???
 namespace offsets {
     inline constexpr uintptr_t Adornee = 0xD0;
     inline constexpr uintptr_t Anchored = 0x2;
@@ -13,7 +11,7 @@ namespace offsets {
     inline constexpr uintptr_t BeamColor = 0x120;
     inline constexpr uintptr_t BeamLightEmission = 0x19C;
     inline constexpr uintptr_t BeamLightInfuence = 0x1A0;
-    inline constexpr uintptr_t CFrame = 0xC0;
+    inline constexpr uintptr_t CFrame = 0xF8;
     inline constexpr uintptr_t Camera = 0x488;
     inline constexpr uintptr_t CameraMaxZoomDistance = 0x320;
     inline constexpr uintptr_t CameraMinZoomDistance = 0x324;
@@ -68,7 +66,7 @@ namespace offsets {
     inline constexpr uintptr_t GameLoaded = 0x5F8;
     inline constexpr uintptr_t Gravity = 0x1D8;
     inline constexpr uintptr_t Health = 0x194;
-    inline constexpr uintptr_t HealthDisplayDistance = 0x348;
+    inline constexpr uintptr_t HealthDisplayDistance = 0x198;
     inline constexpr uintptr_t HipHeight = 0x1A0;
     inline constexpr uintptr_t HumanoidDisplayName = 0xD0;
     inline constexpr uintptr_t HumanoidState = 0x898;
@@ -105,7 +103,7 @@ namespace offsets {
     inline constexpr uintptr_t MouseSensitivity = 0x7ABC440;
     inline constexpr uintptr_t MoveDirection = 0x158;
     inline constexpr uintptr_t Name = 0xB0;
-    inline constexpr uintptr_t NameDisplayDistance = 0x358;
+    inline constexpr uintptr_t NameDisplayDistance = 0x1BC;
     inline constexpr uintptr_t NameSize = 0x10;
     inline constexpr uintptr_t OnDemandInstance = 0x40;
     inline constexpr uintptr_t OutdoorAmbient = 0x108;
@@ -115,7 +113,7 @@ namespace offsets {
     inline constexpr uintptr_t PlaceId = 0x198;
     inline constexpr uintptr_t PlayerConfigurerPointer = 0x79F30D8;
     inline constexpr uintptr_t PlayerMouse = 0xFC8;
-    inline constexpr uintptr_t Position = 0xE4;
+    inline constexpr uintptr_t Position = 0x11C;
     inline constexpr uintptr_t Primitive = 0x148;
     inline constexpr uintptr_t PrimitiveValidateValue = 0x6;
     inline constexpr uintptr_t PrimitivesPointer1 = 0x400;
@@ -134,7 +132,7 @@ namespace offsets {
     inline constexpr uintptr_t RigType = 0x1C8;
     inline constexpr uintptr_t RootPartR15 = 0x5D8;
     inline constexpr uintptr_t RootPartR6 = 0x478;
-    inline constexpr uintptr_t Rotation = 0xC0;
+    inline constexpr uintptr_t Rotation = 0xF8;
     inline constexpr uintptr_t RunContext = 0x148;
     inline constexpr uintptr_t Sandboxed = 0xC5;
     inline constexpr uintptr_t ScreenGuiEnabled = 0x50D;
@@ -154,7 +152,7 @@ namespace offsets {
     inline constexpr uintptr_t TaskSchedulerMaxFPS = 0xB0;
     inline constexpr uintptr_t TaskSchedulerPointer = 0x7AF5090;
     inline constexpr uintptr_t Team = 0x2A0;
-    inline constexpr uintptr_t TeamColor = 0xD0;
+    inline constexpr uintptr_t TeamColor = 0x364;
     inline constexpr uintptr_t TextLabelText = 0xA60;
     inline constexpr uintptr_t TextLabelVisible = 0x5B5;
     inline constexpr uintptr_t Tool_Grip_Position = 0x4B4;
