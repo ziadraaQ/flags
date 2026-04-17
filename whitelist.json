@@ -1,1 +1,13 @@
+{
+  "version": 1,
+  "updated": "2026-04-17",
+  "users": [
+    {
+      "username": "ExempleUser1",
+      "key": "XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX",
+      "expiry": "never",
+      "note": "Owner"
+    }
+  ]
+}
 
