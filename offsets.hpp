@@ -2,8 +2,8 @@
  * Dumped With: roblox-dumper 2.6
  * Created by: Jonah (jonahw on Discord)
  * Github: https://github.com/nopjo/roblox-dumper
- * Roblox Version: version-2e6461290a3541f5
- * Time Taken: 5590 ms (5.590000 seconds)
+ * Roblox Version: version-390ba09e7e944154
+ * Time Taken: 5452 ms (5.452000 seconds)
  * Total Offsets: 279
  */
 
@@ -12,7 +12,7 @@
 
 // clang-format off
 namespace offsets {
-    inline constexpr const char* roblox_version = "version-2e6461290a3541f5";
+    inline constexpr const char* roblox_version = "version-390ba09e7e944154";
 
     namespace Atmosphere {
         inline constexpr uintptr_t Color = 0xD0;
@@ -42,7 +42,7 @@ namespace offsets {
 
     namespace ByteCode {
         inline constexpr uintptr_t Pointer = 0x10;
-        inline constexpr uintptr_t Size = 0xC0;
+        inline constexpr uintptr_t Size = 0x20;
     }
 
     namespace Camera {
@@ -72,7 +72,7 @@ namespace offsets {
     }
 
     namespace FakeDataModel {
-        inline constexpr uintptr_t Pointer = 0x7B990F8;
+        inline constexpr uintptr_t Pointer = 0x7B991D8;
         inline constexpr uintptr_t RealDataModel = 0x1D0;
     }
 
@@ -215,7 +215,7 @@ namespace offsets {
     }
 
     namespace ModuleScript {
-        inline constexpr uintptr_t Bytecode = 0x60;
+        inline constexpr uintptr_t Bytecode = 0x150;
         inline constexpr uintptr_t Hash = 0xE8;
         inline constexpr uintptr_t IsRobloxScript = 0x180;
     }
@@ -308,7 +308,7 @@ namespace offsets {
         inline constexpr uintptr_t JobEnd = 0xD0;
         inline constexpr uintptr_t JobName = 0x18;
         inline constexpr uintptr_t JobStart = 0xC8;
-        inline constexpr uintptr_t Pointer = 0x7C73D70;
+        inline constexpr uintptr_t Pointer = 0x7C73E50;
     }
 
     namespace Team {
@@ -359,13 +359,13 @@ namespace offsets {
         inline constexpr uintptr_t Text = 0xA60;
         inline constexpr uintptr_t TextColor3 = 0xE70;
         inline constexpr uintptr_t TextDirection = 0xB80;
-        inline constexpr uintptr_t TextScaled = 0x6;
-        inline constexpr uintptr_t TextSize = 0xC9C;
+        inline constexpr uintptr_t TextScaled = 0xAD0;
+        inline constexpr uintptr_t TextSize = 0xE9C;
         inline constexpr uintptr_t TextStrokeColor3 = 0xE7C;
         inline constexpr uintptr_t TextStrokeTransparency = 0xEA0;
         inline constexpr uintptr_t TextTransparency = 0xEA4;
         inline constexpr uintptr_t TextTruncate = 0xEA8;
-        inline constexpr uintptr_t TextWrapped = 0x6;
+        inline constexpr uintptr_t TextWrapped = 0xB20;
         inline constexpr uintptr_t TextXAlignment = 0xEAC;
         inline constexpr uintptr_t TextYAlignment = 0xB1C;
     }
@@ -399,7 +399,7 @@ namespace offsets {
     namespace VisualEngine {
         inline constexpr uintptr_t Dimensions = 0xA60;
         inline constexpr uintptr_t FakeDataModel = 0xA40;
-        inline constexpr uintptr_t Pointer = 0x7746018;
+        inline constexpr uintptr_t Pointer = 0x7746260;
         inline constexpr uintptr_t RenderView = 0xB40;
         inline constexpr uintptr_t ViewMatrix = 0x130;
     }
