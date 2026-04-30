@@ -2,9 +2,9 @@
  * Dumped With: roblox-dumper 2.6
  * Created by: Jonah (jonahw on Discord)
  * Github: https://github.com/nopjo/roblox-dumper
- * Roblox Version: version-390ba09e7e944154
- * Time Taken: 5452 ms (5.452000 seconds)
- * Total Offsets: 279
+ * Roblox Version: version-acc4b74f79e743b9
+ * Time Taken: 4582 ms (4.582000 seconds)
+ * Total Offsets: 278
  */
 
 #pragma once
@@ -12,7 +12,7 @@
 
 // clang-format off
 namespace offsets {
-    inline constexpr const char* roblox_version = "version-390ba09e7e944154";
+    inline constexpr const char* roblox_version = "version-acc4b74f79e743b9";
 
     namespace Atmosphere {
         inline constexpr uintptr_t Color = 0xD0;
@@ -72,7 +72,7 @@ namespace offsets {
     }
 
     namespace FakeDataModel {
-        inline constexpr uintptr_t Pointer = 0x7B991D8;
+        inline constexpr uintptr_t Pointer = 0x7C1A148;
         inline constexpr uintptr_t RealDataModel = 0x1D0;
     }
 
@@ -106,13 +106,13 @@ namespace offsets {
     }
 
     namespace Humanoid {
-        inline constexpr uintptr_t AutoJumpEnabled = 0x1D8;
-        inline constexpr uintptr_t AutoRotate = 0x1D9;
-        inline constexpr uintptr_t AutomaticScalingEnabled = 0x1DA;
-        inline constexpr uintptr_t BreakJointsOnDeath = 0x1DB;
+        inline constexpr uintptr_t AutoJumpEnabled = 0x1E0;
+        inline constexpr uintptr_t AutoRotate = 0x1E1;
+        inline constexpr uintptr_t AutomaticScalingEnabled = 0x1E2;
+        inline constexpr uintptr_t BreakJointsOnDeath = 0x1E3;
         inline constexpr uintptr_t CameraOffset = 0x140;
         inline constexpr uintptr_t DisplayDistanceType = 0x18C;
-        inline constexpr uintptr_t EvaluateStateMachine = 0x1DC;
+        inline constexpr uintptr_t EvaluateStateMachine = 0x1E4;
         inline constexpr uintptr_t Health = 0x194;
         inline constexpr uintptr_t HealthDisplayDistance = 0x198;
         inline constexpr uintptr_t HealthDisplayType = 0x19C;
@@ -123,14 +123,14 @@ namespace offsets {
         inline constexpr uintptr_t MaxSlopeAngle = 0x1B8;
         inline constexpr uintptr_t NameDisplayDistance = 0x1BC;
         inline constexpr uintptr_t NameOcclusion = 0x1C0;
-        inline constexpr uintptr_t RequiresNeck = 0x1E0;
-        inline constexpr uintptr_t RigType = 0x1C8;
+        inline constexpr uintptr_t RequiresNeck = 0x1E9;
+        inline constexpr uintptr_t RigType = 0x1CC;
         inline constexpr uintptr_t SeatPart = 0x120;
-        inline constexpr uintptr_t Sit = 0x1E1;
+        inline constexpr uintptr_t Sit = 0x1EA;
         inline constexpr uintptr_t TargetPoint = 0x164;
-        inline constexpr uintptr_t UseJumpPower = 0x1E3;
-        inline constexpr uintptr_t WalkSpeed = 0x1D4;
-        inline constexpr uintptr_t WalkSpeedCheck = 0x3BC;
+        inline constexpr uintptr_t UseJumpPower = 0x1EC;
+        inline constexpr uintptr_t WalkSpeed = 0x1DC;
+        inline constexpr uintptr_t WalkSpeedCheck = 0x3C4;
         inline constexpr uintptr_t WalkToPoint = 0x17C;
     }
 
@@ -217,7 +217,6 @@ namespace offsets {
     namespace ModuleScript {
         inline constexpr uintptr_t Bytecode = 0x150;
         inline constexpr uintptr_t Hash = 0xE8;
-        inline constexpr uintptr_t IsRobloxScript = 0x180;
     }
 
     namespace MouseService {
@@ -260,13 +259,13 @@ namespace offsets {
     }
 
     namespace ProximityPrompt {
-        inline constexpr uintptr_t ActionText = 0xD0;
-        inline constexpr uintptr_t Enabled = 0x156;
-        inline constexpr uintptr_t HoldDuration = 0x140;
-        inline constexpr uintptr_t KeyboardKeyCode = 0x144;
-        inline constexpr uintptr_t MaxActivationDistance = 0x148;
-        inline constexpr uintptr_t ObjectText = 0xF0;
-        inline constexpr uintptr_t RequiresLineOfSight = 0x157;
+        inline constexpr uintptr_t ActionText = 0xC8;
+        inline constexpr uintptr_t Enabled = 0x14E;
+        inline constexpr uintptr_t HoldDuration = 0x138;
+        inline constexpr uintptr_t KeyboardKeyCode = 0x13C;
+        inline constexpr uintptr_t MaxActivationDistance = 0x140;
+        inline constexpr uintptr_t ObjectText = 0xE8;
+        inline constexpr uintptr_t RequiresLineOfSight = 0x14F;
     }
 
     namespace RenderView {
@@ -275,7 +274,7 @@ namespace offsets {
     }
 
     namespace ScriptContext {
-        inline constexpr uintptr_t RequireBypass = 0x824;
+        inline constexpr uintptr_t RequireBypass = 0x928;
     }
 
     namespace Seat {
@@ -308,7 +307,7 @@ namespace offsets {
         inline constexpr uintptr_t JobEnd = 0xD0;
         inline constexpr uintptr_t JobName = 0x18;
         inline constexpr uintptr_t JobStart = 0xC8;
-        inline constexpr uintptr_t Pointer = 0x7C73E50;
+        inline constexpr uintptr_t Pointer = 0x7CF5400;
     }
 
     namespace Team {
@@ -317,7 +316,7 @@ namespace offsets {
 
     namespace Terrain {
         inline constexpr uintptr_t GrassLength = 0x1F8;
-        inline constexpr uintptr_t MaterialColors = 0x290;
+        inline constexpr uintptr_t MaterialColors = 0x2A8;
         inline constexpr uintptr_t WaterColor = 0x1E8;
         inline constexpr uintptr_t WaterReflectance = 0x200;
         inline constexpr uintptr_t WaterTransparency = 0x204;
@@ -397,23 +396,23 @@ namespace offsets {
     }
 
     namespace VisualEngine {
-        inline constexpr uintptr_t Dimensions = 0xA60;
-        inline constexpr uintptr_t FakeDataModel = 0xA40;
-        inline constexpr uintptr_t Pointer = 0x7746260;
-        inline constexpr uintptr_t RenderView = 0xB40;
+        inline constexpr uintptr_t Dimensions = 0xA90;
+        inline constexpr uintptr_t FakeDataModel = 0xA70;
+        inline constexpr uintptr_t Pointer = 0x77C6670;
+        inline constexpr uintptr_t RenderView = 0xB70;
         inline constexpr uintptr_t ViewMatrix = 0x130;
     }
 
     namespace Workspace {
         inline constexpr uintptr_t CurrentCamera = 0x490;
-        inline constexpr uintptr_t ReadOnlyGravity = 0x9C0;
+        inline constexpr uintptr_t ReadOnlyGravity = 0x9B8;
         inline constexpr uintptr_t World = 0x408;
     }
 
     namespace World {
-        inline constexpr uintptr_t Gravity = 0x1D8;
-        inline constexpr uintptr_t Primitives = 0x248;
-        inline constexpr uintptr_t WorldSteps = 0x668;
+        inline constexpr uintptr_t Gravity = 0x210;
+        inline constexpr uintptr_t Primitives = 0x280;
+        inline constexpr uintptr_t WorldSteps = 0x6B8;
     }
 
 } // namespace offsets
