@@ -2,9 +2,9 @@
  * Dumped With: roblox-dumper 2.6
  * Created by: Jonah (jonahw on Discord)
  * Github: https://github.com/nopjo/roblox-dumper
- * Roblox Version: version-acc4b74f79e743b9
- * Time Taken: 4582 ms (4.582000 seconds)
- * Total Offsets: 278
+ * Roblox Version: version-99d34dde4c944b2f
+ * Time Taken: 4784 ms (4.784000 seconds)
+ * Total Offsets: 277
  */
 
 #pragma once
@@ -12,7 +12,7 @@
 
 // clang-format off
 namespace offsets {
-    inline constexpr const char* roblox_version = "version-acc4b74f79e743b9";
+    inline constexpr const char* roblox_version = "version-99d34dde4c944b2f";
 
     namespace Atmosphere {
         inline constexpr uintptr_t Color = 0xD0;
@@ -62,17 +62,17 @@ namespace offsets {
     }
 
     namespace DataModel {
-        inline constexpr uintptr_t CreatorId = 0x188;
-        inline constexpr uintptr_t GameId = 0x190;
-        inline constexpr uintptr_t GameLoaded = 0x5F8;
+        inline constexpr uintptr_t CreatorId = 0x190;
+        inline constexpr uintptr_t GameId = 0x198;
+        inline constexpr uintptr_t GameLoaded = 0x620;
         inline constexpr uintptr_t JobId = 0x138;
-        inline constexpr uintptr_t PlaceId = 0x198;
-        inline constexpr uintptr_t ServerIP = 0x5E0;
+        inline constexpr uintptr_t PlaceId = 0x1A0;
+        inline constexpr uintptr_t ServerIP = 0x608;
         inline constexpr uintptr_t Workspace = 0x178;
     }
 
     namespace FakeDataModel {
-        inline constexpr uintptr_t Pointer = 0x7C1A148;
+        inline constexpr uintptr_t Pointer = 0x74A25D0;
         inline constexpr uintptr_t RealDataModel = 0x1D0;
     }
 
@@ -152,37 +152,37 @@ namespace offsets {
     }
 
     namespace Lighting {
-        inline constexpr uintptr_t Ambient = 0xD8;
-        inline constexpr uintptr_t Atmosphere = 0x1E8;
-        inline constexpr uintptr_t Brightness = 0x120;
-        inline constexpr uintptr_t ClockTime = 0x1B8;
-        inline constexpr uintptr_t ColorShift_Bottom = 0xE4;
-        inline constexpr uintptr_t ColorShift_Top = 0xF0;
-        inline constexpr uintptr_t EnvironmentDiffuseScale = 0x124;
-        inline constexpr uintptr_t EnvironmentSpecularScale = 0x128;
-        inline constexpr uintptr_t ExposureCompensation = 0x12C;
-        inline constexpr uintptr_t FogColor = 0xFC;
-        inline constexpr uintptr_t FogEnd = 0x134;
-        inline constexpr uintptr_t FogStart = 0x138;
-        inline constexpr uintptr_t OutdoorAmbient = 0x108;
-        inline constexpr uintptr_t ShadowSoftness = 0x140;
-        inline constexpr uintptr_t Sky = 0x1D8;
+        inline constexpr uintptr_t Ambient = 0xE0;
+        inline constexpr uintptr_t Atmosphere = 0x1F0;
+        inline constexpr uintptr_t Brightness = 0x128;
+        inline constexpr uintptr_t ClockTime = 0x1C0;
+        inline constexpr uintptr_t ColorShift_Bottom = 0xEC;
+        inline constexpr uintptr_t ColorShift_Top = 0xF8;
+        inline constexpr uintptr_t EnvironmentDiffuseScale = 0x12C;
+        inline constexpr uintptr_t EnvironmentSpecularScale = 0x130;
+        inline constexpr uintptr_t ExposureCompensation = 0x134;
+        inline constexpr uintptr_t FogColor = 0x104;
+        inline constexpr uintptr_t FogEnd = 0x13C;
+        inline constexpr uintptr_t FogStart = 0x140;
+        inline constexpr uintptr_t OutdoorAmbient = 0x110;
+        inline constexpr uintptr_t ShadowSoftness = 0x148;
+        inline constexpr uintptr_t Sky = 0x1E0;
     }
 
     namespace LightingParameters {
-        inline constexpr uintptr_t GeographicLatitude = 0x190;
-        inline constexpr uintptr_t LightColor = 0x15C;
-        inline constexpr uintptr_t LightDirection = 0x168;
-        inline constexpr uintptr_t SkyAmbient = 0x150;
-        inline constexpr uintptr_t SkyAmbient2 = 0x194;
-        inline constexpr uintptr_t Source = 0x174;
-        inline constexpr uintptr_t TrueMoonPosition = 0x184;
-        inline constexpr uintptr_t TrueSunPosition = 0x178;
+        inline constexpr uintptr_t GeographicLatitude = 0x198;
+        inline constexpr uintptr_t LightColor = 0x164;
+        inline constexpr uintptr_t LightDirection = 0x170;
+        inline constexpr uintptr_t SkyAmbient = 0x158;
+        inline constexpr uintptr_t SkyAmbient2 = 0x19C;
+        inline constexpr uintptr_t Source = 0x17C;
+        inline constexpr uintptr_t TrueMoonPosition = 0x18C;
+        inline constexpr uintptr_t TrueSunPosition = 0x180;
     }
 
     namespace LocalScript {
         inline constexpr uintptr_t Bytecode = 0x1A8;
-        inline constexpr uintptr_t Hash = 0xE8;
+        inline constexpr uintptr_t Hash = 0x1B8;
     }
 
     namespace MaterialColors {
@@ -220,7 +220,7 @@ namespace offsets {
     }
 
     namespace MouseService {
-        inline constexpr uintptr_t InputObject = 0x110;
+        inline constexpr uintptr_t InputObject = 0x118;
     }
 
     namespace Player {
@@ -228,7 +228,7 @@ namespace offsets {
         inline constexpr uintptr_t Character = 0x398;
         inline constexpr uintptr_t DisplayName = 0x130;
         inline constexpr uintptr_t HealthDisplayDistance = 0x348;
-        inline constexpr uintptr_t LocaleId = 0x6D0;
+        inline constexpr uintptr_t LocaleId = 0x6F0;
         inline constexpr uintptr_t NameDisplayDistance = 0x358;
         inline constexpr uintptr_t Team = 0x2A0;
         inline constexpr uintptr_t TeamColor = 0x364;
@@ -236,7 +236,7 @@ namespace offsets {
     }
 
     namespace Players {
-        inline constexpr uintptr_t LocalPlayer = 0x130;
+        inline constexpr uintptr_t LocalPlayer = 0x138;
     }
 
     namespace Primitive {
@@ -269,12 +269,8 @@ namespace offsets {
     }
 
     namespace RenderView {
-        inline constexpr uintptr_t LightingValid = 0x148;
+        inline constexpr uintptr_t LightingValid = 0x150;
         inline constexpr uintptr_t SkyboxValid = 0x28D;
-    }
-
-    namespace ScriptContext {
-        inline constexpr uintptr_t RequireBypass = 0x928;
     }
 
     namespace Seat {
@@ -307,7 +303,7 @@ namespace offsets {
         inline constexpr uintptr_t JobEnd = 0xD0;
         inline constexpr uintptr_t JobName = 0x18;
         inline constexpr uintptr_t JobStart = 0xC8;
-        inline constexpr uintptr_t Pointer = 0x7CF5400;
+        inline constexpr uintptr_t Pointer = 0x7BA6518;
     }
 
     namespace Team {
@@ -337,7 +333,7 @@ namespace offsets {
         inline constexpr uintptr_t Text = 0xCE0;
         inline constexpr uintptr_t TextColor3 = 0x10F0;
         inline constexpr uintptr_t TextDirection = 0xE00;
-        inline constexpr uintptr_t TextScaled = 0xD50;
+        inline constexpr uintptr_t TextScaled = 0x6;
         inline constexpr uintptr_t TextSize = 0x111C;
         inline constexpr uintptr_t TextStrokeColor3 = 0x10FC;
         inline constexpr uintptr_t TextStrokeTransparency = 0x1120;
@@ -378,7 +374,7 @@ namespace offsets {
         inline constexpr uintptr_t GripRight = 0x498;
         inline constexpr uintptr_t GripUp = 0x4A4;
         inline constexpr uintptr_t ManualActivationOnly = 0x4CA;
-        inline constexpr uintptr_t RequiresHandle = 0x4CB;
+        inline constexpr uintptr_t RequiresHandle = 0x4C9;
         inline constexpr uintptr_t Tooltip = 0x478;
     }
 
@@ -396,23 +392,23 @@ namespace offsets {
     }
 
     namespace VisualEngine {
-        inline constexpr uintptr_t Dimensions = 0xA90;
-        inline constexpr uintptr_t FakeDataModel = 0xA70;
-        inline constexpr uintptr_t Pointer = 0x77C6670;
-        inline constexpr uintptr_t RenderView = 0xB70;
-        inline constexpr uintptr_t ViewMatrix = 0x130;
+        inline constexpr uintptr_t Dimensions = 0xAA0;
+        inline constexpr uintptr_t FakeDataModel = 0xA80;
+        inline constexpr uintptr_t Pointer = 0x7B7CD88;
+        inline constexpr uintptr_t RenderView = 0xB80;
+        inline constexpr uintptr_t ViewMatrix = 0x140;
     }
 
     namespace Workspace {
         inline constexpr uintptr_t CurrentCamera = 0x490;
-        inline constexpr uintptr_t ReadOnlyGravity = 0x9B8;
+        inline constexpr uintptr_t ReadOnlyGravity = 0x9C0;
         inline constexpr uintptr_t World = 0x408;
     }
 
     namespace World {
         inline constexpr uintptr_t Gravity = 0x210;
         inline constexpr uintptr_t Primitives = 0x280;
-        inline constexpr uintptr_t WorldSteps = 0x6B8;
+        inline constexpr uintptr_t WorldSteps = 0x678;
     }
 
 } // namespace offsets
