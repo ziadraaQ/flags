@@ -2,8 +2,8 @@
  * Dumped With: roblox-dumper 2.6
  * Created by: Jonah (jonahw on Discord)
  * Github: https://github.com/nopjo/roblox-dumper
- * Roblox Version: version-9377ee10133e4be3
- * Time Taken: 4663 ms (4.663000 seconds)
+ * Roblox Version: version-4b6315bf1f0a4dbb
+ * Time Taken: 4801 ms (4.801000 seconds)
  * Total Offsets: 277
  */
 
@@ -12,7 +12,7 @@
 
 // clang-format off
 namespace offsets {
-    inline constexpr const char* roblox_version = "version-9377ee10133e4be3";
+    inline constexpr const char* roblox_version = "version-4b6315bf1f0a4dbb";
 
     namespace Atmosphere {
         inline constexpr uintptr_t Color = 0xD0;
@@ -72,7 +72,7 @@ namespace offsets {
     }
 
     namespace FakeDataModel {
-        inline constexpr uintptr_t Pointer = 0x74F9030;
+        inline constexpr uintptr_t Pointer = 0x786B320;
         inline constexpr uintptr_t RealDataModel = 0x1D0;
     }
 
@@ -216,7 +216,7 @@ namespace offsets {
 
     namespace ModuleScript {
         inline constexpr uintptr_t Bytecode = 0x150;
-        inline constexpr uintptr_t Hash = 0x160;
+        inline constexpr uintptr_t Hash = 0xE8;
     }
 
     namespace MouseService {
@@ -303,7 +303,7 @@ namespace offsets {
         inline constexpr uintptr_t JobEnd = 0xD0;
         inline constexpr uintptr_t JobName = 0x18;
         inline constexpr uintptr_t JobStart = 0xC8;
-        inline constexpr uintptr_t Pointer = 0x7BFE988;
+        inline constexpr uintptr_t Pointer = 0x7F7C478;
     }
 
     namespace Team {
@@ -333,7 +333,7 @@ namespace offsets {
         inline constexpr uintptr_t Text = 0xDE0;
         inline constexpr uintptr_t TextColor3 = 0x10D8;
         inline constexpr uintptr_t TextDirection = 0xF78;
-        inline constexpr uintptr_t TextScaled = 0x6;
+        inline constexpr uintptr_t TextScaled = 0xFCA;
         inline constexpr uintptr_t TextSize = 0x1104;
         inline constexpr uintptr_t TextStrokeColor3 = 0x10E4;
         inline constexpr uintptr_t TextStrokeTransparency = 0x1108;
@@ -354,7 +354,7 @@ namespace offsets {
         inline constexpr uintptr_t Text = 0xB60;
         inline constexpr uintptr_t TextColor3 = 0xE58;
         inline constexpr uintptr_t TextDirection = 0xCF8;
-        inline constexpr uintptr_t TextScaled = 0xB05;
+        inline constexpr uintptr_t TextScaled = 0x8A5;
         inline constexpr uintptr_t TextSize = 0xE84;
         inline constexpr uintptr_t TextStrokeColor3 = 0xE64;
         inline constexpr uintptr_t TextStrokeTransparency = 0xE88;
@@ -394,8 +394,8 @@ namespace offsets {
     namespace VisualEngine {
         inline constexpr uintptr_t Dimensions = 0xAA0;
         inline constexpr uintptr_t FakeDataModel = 0xA80;
-        inline constexpr uintptr_t Pointer = 0x7BD51F8;
-        inline constexpr uintptr_t RenderView = 0xB80;
+        inline constexpr uintptr_t Pointer = 0x7F52CF0;
+        inline constexpr uintptr_t RenderView = 0xB90;
         inline constexpr uintptr_t ViewMatrix = 0x140;
     }
 
