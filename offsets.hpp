@@ -3,7 +3,7 @@
  * Created by: Jonah (jonahw on Discord)
  * Github: https://github.com/nopjo/roblox-dumper
  * Roblox Version: version-ad5d3e2906444472
- * Time Taken: 4680 ms (4.680000 seconds)
+ * Time Taken: 4162 ms (4.162000 seconds)
  * Total Offsets: 277
  */
 
@@ -101,7 +101,7 @@ namespace offsets {
         inline constexpr uintptr_t SelectionOrder = 0x59C;
         inline constexpr uintptr_t Size = 0x530;
         inline constexpr uintptr_t SizeConstraint = 0x5A0;
-        inline constexpr uintptr_t Visible = 0x5AD;
+        inline constexpr uintptr_t Visible = 0xD;
         inline constexpr uintptr_t ZIndex = 0x5A4;
     }
 
@@ -182,7 +182,7 @@ namespace offsets {
 
     namespace LocalScript {
         inline constexpr uintptr_t Bytecode = 0x1A8;
-        inline constexpr uintptr_t Hash = 0x1B8;
+        inline constexpr uintptr_t Hash = 0xE8;
     }
 
     namespace MaterialColors {
@@ -216,7 +216,7 @@ namespace offsets {
 
     namespace ModuleScript {
         inline constexpr uintptr_t Bytecode = 0x150;
-        inline constexpr uintptr_t Hash = 0x160;
+        inline constexpr uintptr_t Hash = 0xE8;
     }
 
     namespace MouseService {
@@ -225,7 +225,7 @@ namespace offsets {
 
     namespace Player {
         inline constexpr uintptr_t AccountAge = 0x32C;
-        inline constexpr uintptr_t Character = 0x280;
+        inline constexpr uintptr_t Character = 0x3A8;
         inline constexpr uintptr_t DisplayName = 0x130;
         inline constexpr uintptr_t HealthDisplayDistance = 0x358;
         inline constexpr uintptr_t LocaleId = 0x700;
@@ -338,8 +338,8 @@ namespace offsets {
         inline constexpr uintptr_t TextStrokeColor3 = 0x10DC;
         inline constexpr uintptr_t TextStrokeTransparency = 0x1100;
         inline constexpr uintptr_t TextTransparency = 0x1104;
-        inline constexpr uintptr_t TextTruncate = 0xFC5;
-        inline constexpr uintptr_t TextWrapped = 0xFC2;
+        inline constexpr uintptr_t TextTruncate = 0x1108;
+        inline constexpr uintptr_t TextWrapped = 0xFC4;
         inline constexpr uintptr_t TextXAlignment = 0x110C;
         inline constexpr uintptr_t TextYAlignment = 0xF18;
     }
@@ -360,7 +360,7 @@ namespace offsets {
         inline constexpr uintptr_t TextStrokeTransparency = 0xE80;
         inline constexpr uintptr_t TextTransparency = 0xE84;
         inline constexpr uintptr_t TextTruncate = 0xE88;
-        inline constexpr uintptr_t TextWrapped = 0xD42;
+        inline constexpr uintptr_t TextWrapped = 0xD44;
         inline constexpr uintptr_t TextXAlignment = 0xE8C;
         inline constexpr uintptr_t TextYAlignment = 0xC98;
     }
