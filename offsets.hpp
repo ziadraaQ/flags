@@ -2,8 +2,8 @@
  * Dumped With: roblox-dumper 2.6
  * Created by: Jonah (jonahw on Discord)
  * Github: https://github.com/nopjo/roblox-dumper
- * Roblox Version: version-76173e47a79145c7
- * Time Taken: 4229 ms (4.229000 seconds)
+ * Roblox Version: version-8884371d30284041
+ * Time Taken: 4611 ms (4.611000 seconds)
  * Total Offsets: 273
  */
 
@@ -12,7 +12,7 @@
 
 // clang-format off
 namespace offsets {
-    inline constexpr const char* roblox_version = "version-76173e47a79145c7";
+    inline constexpr const char* roblox_version = "version-8884371d30284041";
 
     namespace Atmosphere {
         inline constexpr uintptr_t Color = 0xD0;
@@ -62,17 +62,17 @@ namespace offsets {
     }
 
     namespace DataModel {
-        inline constexpr uintptr_t CreatorId = 0x190;
-        inline constexpr uintptr_t GameId = 0x198;
-        inline constexpr uintptr_t GameLoaded = 0x670;
+        inline constexpr uintptr_t CreatorId = 0x198;
+        inline constexpr uintptr_t GameId = 0x1A0;
+        inline constexpr uintptr_t GameLoaded = 0x678;
         inline constexpr uintptr_t JobId = 0x138;
-        inline constexpr uintptr_t PlaceId = 0x1A0;
-        inline constexpr uintptr_t ServerIP = 0x658;
+        inline constexpr uintptr_t PlaceId = 0x1A8;
+        inline constexpr uintptr_t ServerIP = 0x660;
         inline constexpr uintptr_t Workspace = 0x178;
     }
 
     namespace FakeDataModel {
-        inline constexpr uintptr_t Pointer = 0x7A3C430;
+        inline constexpr uintptr_t Pointer = 0x7BD20C0;
         inline constexpr uintptr_t RealDataModel = 0x1D8;
     }
 
@@ -182,7 +182,7 @@ namespace offsets {
 
     namespace LocalScript {
         inline constexpr uintptr_t Bytecode = 0x1A8;
-        inline constexpr uintptr_t Hash = 0xE8;
+        inline constexpr uintptr_t Hash = 0x1B8;
     }
 
     namespace MaterialColors {
@@ -216,7 +216,7 @@ namespace offsets {
 
     namespace ModuleScript {
         inline constexpr uintptr_t Bytecode = 0x150;
-        inline constexpr uintptr_t Hash = 0xE8;
+        inline constexpr uintptr_t Hash = 0x160;
     }
 
     namespace MouseService {
@@ -225,25 +225,25 @@ namespace offsets {
 
     namespace Player {
         inline constexpr uintptr_t AccountAge = 0x34C;
-        inline constexpr uintptr_t Character = 0x3C8;
+        inline constexpr uintptr_t Character = 0x3D0;
         inline constexpr uintptr_t DisplayName = 0x150;
-        inline constexpr uintptr_t HealthDisplayDistance = 0x378;
-        inline constexpr uintptr_t LocaleId = 0x720;
-        inline constexpr uintptr_t NameDisplayDistance = 0x388;
+        inline constexpr uintptr_t HealthDisplayDistance = 0x37C;
+        inline constexpr uintptr_t LocaleId = 0x728;
+        inline constexpr uintptr_t NameDisplayDistance = 0x38C;
         inline constexpr uintptr_t Team = 0x2D0;
-        inline constexpr uintptr_t TeamColor = 0x394;
+        inline constexpr uintptr_t TeamColor = 0x398;
         inline constexpr uintptr_t UserId = 0x2F8;
     }
 
     namespace Players {
-        inline constexpr uintptr_t LocalPlayer = 0x138;
+        inline constexpr uintptr_t LocalPlayer = 0x148;
     }
 
     namespace Primitive {
         inline constexpr uintptr_t AssemblyAngularVelocity = 0x104;
         inline constexpr uintptr_t AssemblyLinearVelocity = 0xF8;
         inline constexpr uintptr_t CFrame = 0xC8;
-        inline constexpr uintptr_t Material = 0x236;
+        inline constexpr uintptr_t Material = 0x23E;
         inline constexpr uintptr_t Orientation = 0xC8;
         inline constexpr uintptr_t Position = 0xEC;
         inline constexpr uintptr_t PrimitiveFlags = 0x1B6;
@@ -347,8 +347,8 @@ namespace offsets {
         inline constexpr uintptr_t Text = 0xB50;
         inline constexpr uintptr_t TextColor3 = 0xE50;
         inline constexpr uintptr_t TextDirection = 0xCE8;
-        inline constexpr uintptr_t TextScaled = 0x6;
-        inline constexpr uintptr_t TextSize = 0xD04;
+        inline constexpr uintptr_t TextScaled = 0xD3E;
+        inline constexpr uintptr_t TextSize = 0xE7C;
         inline constexpr uintptr_t TextStrokeColor3 = 0xE5C;
         inline constexpr uintptr_t TextStrokeTransparency = 0xE80;
         inline constexpr uintptr_t TextTransparency = 0xE84;
@@ -359,16 +359,16 @@ namespace offsets {
     }
 
     namespace Tool {
-        inline constexpr uintptr_t CanBeDropped = 0x4C8;
-        inline constexpr uintptr_t Enabled = 0x4C9;
-        inline constexpr uintptr_t Grip = 0x498;
-        inline constexpr uintptr_t GripForward = 0x4B0;
-        inline constexpr uintptr_t GripPos = 0x4BC;
-        inline constexpr uintptr_t GripRight = 0x498;
-        inline constexpr uintptr_t GripUp = 0x4A4;
-        inline constexpr uintptr_t ManualActivationOnly = 0x4CA;
-        inline constexpr uintptr_t RequiresHandle = 0x4CB;
-        inline constexpr uintptr_t Tooltip = 0x478;
+        inline constexpr uintptr_t CanBeDropped = 0x4C0;
+        inline constexpr uintptr_t Enabled = 0x4C1;
+        inline constexpr uintptr_t Grip = 0x490;
+        inline constexpr uintptr_t GripForward = 0x4A8;
+        inline constexpr uintptr_t GripPos = 0x4B4;
+        inline constexpr uintptr_t GripRight = 0x490;
+        inline constexpr uintptr_t GripUp = 0x49C;
+        inline constexpr uintptr_t ManualActivationOnly = 0x4C2;
+        inline constexpr uintptr_t RequiresHandle = 0x4C3;
+        inline constexpr uintptr_t Tooltip = 0x470;
     }
 
     namespace Value {
@@ -387,21 +387,21 @@ namespace offsets {
     namespace VisualEngine {
         inline constexpr uintptr_t Dimensions = 0xAB0;
         inline constexpr uintptr_t FakeDataModel = 0xA90;
-        inline constexpr uintptr_t Pointer = 0x8158B80;
-        inline constexpr uintptr_t RenderView = 0xBB0;
+        inline constexpr uintptr_t Pointer = 0x82EA3F8;
+        inline constexpr uintptr_t RenderView = 0xBB8;
         inline constexpr uintptr_t ViewMatrix = 0x150;
     }
 
     namespace Workspace {
-        inline constexpr uintptr_t CurrentCamera = 0x4B0;
-        inline constexpr uintptr_t ReadOnlyGravity = 0x9F0;
-        inline constexpr uintptr_t World = 0x408;
+        inline constexpr uintptr_t CurrentCamera = 0x4A8;
+        inline constexpr uintptr_t ReadOnlyGravity = 0x9E8;
+        inline constexpr uintptr_t World = 0x400;
     }
 
     namespace World {
         inline constexpr uintptr_t Gravity = 0x210;
-        inline constexpr uintptr_t Primitives = 0x280;
-        inline constexpr uintptr_t WorldSteps = 0x678;
+        inline constexpr uintptr_t Primitives = 0x288;
+        inline constexpr uintptr_t WorldSteps = 0x680;
     }
 
 } // namespace offsets
