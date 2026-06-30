@@ -6,7 +6,7 @@
 /*  Dumped With     : RbxDumperV2                               
 /*  Roblox Version  : version-1a951716f19e4638
 /*  Dumper Version  : 2.1.7
-/*  Dumped At       : 21:35 23/06/2026 (GMT)
+/*  Dumped At       : 02:05 30/06/2026 (GMT)
 /*  Total Offsets   : 392
 /* -------------------------------------------------------------
 /*  Join the discord!                                           
@@ -240,7 +240,7 @@ namespace Offsets {
          inline constexpr uintptr_t NameDisplayDistance = 0x1bc;
          inline constexpr uintptr_t NameOcclusion = 0x1c0;
          inline constexpr uintptr_t PlatformStand = 0x1e8;
-         inline constexpr uintptr_t PlatformStatePointer = 0x2efdbc05;
+         inline constexpr uintptr_t PlatformStatePointer = 0xd53794e1;
          inline constexpr uintptr_t RequiresNeck = 0x1e9;
          inline constexpr uintptr_t RigType = 0x1cc;
          inline constexpr uintptr_t SeatPart = 0x120;
@@ -392,7 +392,7 @@ namespace Offsets {
          inline constexpr uintptr_t LocaleId = 0x130;
          inline constexpr uintptr_t MaxZoomDistance = 0x360;
          inline constexpr uintptr_t MinZoomDistance = 0x364;
-         inline constexpr uintptr_t ModelInstance = 0x3d8;
+         inline constexpr uintptr_t ModelInstance = 0x2a0;
          inline constexpr uintptr_t Mouse = 0x1198;
          inline constexpr uintptr_t NameDisplayDistance = 0x398;
          inline constexpr uintptr_t Team = 0x2d0;
@@ -453,8 +453,8 @@ namespace Offsets {
     }
 
     namespace RunService {
-         inline constexpr uintptr_t HeartbeatFPS = 0xb8;
-         inline constexpr uintptr_t HeartbeatTask = 0xf8;
+         inline constexpr uintptr_t HeartbeatFPS = 0xf4;
+         inline constexpr uintptr_t HeartbeatTask = 0x3b8;
     }
 
     namespace Script {
@@ -497,7 +497,7 @@ namespace Offsets {
     }
 
     namespace SpawnLocation {
-         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x3c;
+         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x3d;
          inline constexpr uintptr_t Enabled = 0x1f1;
          inline constexpr uintptr_t ForcefieldDuration = 0x1e8;
          inline constexpr uintptr_t Neutral = 0x1f2;
