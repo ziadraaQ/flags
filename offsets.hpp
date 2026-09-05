@@ -1,7 +1,7 @@
 /*
  * dumped by @burgerwydd
- * dumped at: Thu Aug 27 06:13:55 PM 2026
- * roblox version: version-f5a60436d48947d3
+ * dumped at: Wed Sep 02 06:56:46 PM 2026
+ * roblox version: version-e7d81637d42c4b23
  * total offsets: 340
 */
 
@@ -9,7 +9,7 @@
 #include <cstdint>
 
 namespace offsets {
-    inline constexpr const char* CurrentRobloxVersion = "version-f5a60436d48947d3";
+    inline constexpr const char* CurrentRobloxVersion = "version-e7d81637d42c4b23";
 
     namespace AirProperties {
         inline constexpr uintptr_t AirDensity = 0x18;
@@ -38,7 +38,7 @@ namespace offsets {
         inline constexpr uintptr_t Massless = 0x137;
         inline constexpr uintptr_t Primitive = 0x188;
         inline constexpr uintptr_t Reflectance = 0x10C;
-        inline constexpr uintptr_t Shape = 0x1B9;
+        inline constexpr uintptr_t Shape = 0x1B8;
         inline constexpr uintptr_t Transparency = 0x130;
     }
 
@@ -83,17 +83,17 @@ namespace offsets {
     }
 
     namespace Creator {
-        inline constexpr uintptr_t MapEnd = 0x83403D8;
-        inline constexpr uintptr_t MapStart = 0x83403D0;
+        inline constexpr uintptr_t MapEnd = 0x83B1508;
+        inline constexpr uintptr_t MapStart = 0x83B1500;
     }
 
     namespace DataModel {
         inline constexpr uintptr_t CreatorId = 0x180;
         inline constexpr uintptr_t GameId = 0x188;
-        inline constexpr uintptr_t GameLoaded = 0x5D0;
+        inline constexpr uintptr_t GameLoaded = 0x5D8;
         inline constexpr uintptr_t JobId = 0x118;
         inline constexpr uintptr_t PlaceId = 0x190;
-        inline constexpr uintptr_t ServerIP = 0x5B8;
+        inline constexpr uintptr_t ServerIP = 0x5C0;
         inline constexpr uintptr_t Workspace = 0x158;
     }
 
@@ -102,7 +102,7 @@ namespace offsets {
     }
 
     namespace FakeDataModel {
-        inline constexpr uintptr_t Pointer = 0x8CA9CC8;
+        inline constexpr uintptr_t Pointer = 0x8D22868;
         inline constexpr uintptr_t RealDataModel = 0x1F8;
     }
 
@@ -116,7 +116,7 @@ namespace offsets {
     }
 
     namespace Fire {
-        inline constexpr uintptr_t FireProximityPrompt = 0x309BD00;
+        inline constexpr uintptr_t FireProximityPrompt = 0x30CA950;
     }
 
     namespace FunctionDescriptor {
@@ -124,21 +124,21 @@ namespace offsets {
     }
 
     namespace Functions {
-        inline constexpr uintptr_t Clone = 0x1619170; // better to resolve at runtime via func descriptors
-        inline constexpr uintptr_t Destroy = 0x1619190; // better to resolve at runtime via func descriptors
-        inline constexpr uintptr_t FindPartOnRay = 0xEB3460; // better to resolve at runtime via func descriptors
-        inline constexpr uintptr_t FindPartOnRayWithIgnoreList = 0xEB34E0; // better to resolve at runtime via func descriptors
-        inline constexpr uintptr_t FindPartOnRayWithWhitelist = 0xEB3570; // better to resolve at runtime via func descriptors
-        inline constexpr uintptr_t FireServer = 0xC99010; // better to resolve at runtime via func descriptors
-        inline constexpr uintptr_t GetAttribute = 0x1CBA150; // better to resolve at runtime via func descriptors
-        inline constexpr uintptr_t GetAttributes = 0x1611BA0; // better to resolve at runtime via func descriptors
-        inline constexpr uintptr_t Print = 0x1C68FE0;
-        inline constexpr uintptr_t RaisePropertyChanged = 0xF5F550;
-        inline constexpr uintptr_t Raycast = 0xEAAA10; // better to resolve at runtime via func descriptors
-        inline constexpr uintptr_t SetAttribute = 0x1CB9E40; // better to resolve at runtime via func descriptors
-        inline constexpr uintptr_t SetParent = 0xEA4D6C;
-        inline constexpr uintptr_t SetParentInternal = 0x1CB1AD0;
-        inline constexpr uintptr_t Shapecast = 0xEAC3D0; // better to resolve at runtime via func descriptors
+        inline constexpr uintptr_t Clone = 0x1630C90; // better to resolve at runtime via func descriptors
+        inline constexpr uintptr_t Destroy = 0x1630CB0; // better to resolve at runtime via func descriptors
+        inline constexpr uintptr_t FindPartOnRay = 0xEBF270; // better to resolve at runtime via func descriptors
+        inline constexpr uintptr_t FindPartOnRayWithIgnoreList = 0xEBF2F0; // better to resolve at runtime via func descriptors
+        inline constexpr uintptr_t FindPartOnRayWithWhitelist = 0xEBF380; // better to resolve at runtime via func descriptors
+        inline constexpr uintptr_t FireServer = 0xC9EED0; // better to resolve at runtime via func descriptors
+        inline constexpr uintptr_t GetAttribute = 0x1CDB2A0; // better to resolve at runtime via func descriptors
+        inline constexpr uintptr_t GetAttributes = 0x1629590; // better to resolve at runtime via func descriptors
+        inline constexpr uintptr_t Print = 0x1C8A050;
+        inline constexpr uintptr_t RaisePropertyChanged = 0xF6B4E6;
+        inline constexpr uintptr_t Raycast = 0xEB6860; // better to resolve at runtime via func descriptors
+        inline constexpr uintptr_t SetAttribute = 0x1CDAF90; // better to resolve at runtime via func descriptors
+        inline constexpr uintptr_t SetParent = 0xE8F280;
+        inline constexpr uintptr_t SetParentInternal = 0x1CD2C10;
+        inline constexpr uintptr_t Shapecast = 0xEB8220; // better to resolve at runtime via func descriptors
     }
 
     namespace GuiBase2D {
@@ -159,11 +159,11 @@ namespace offsets {
         inline constexpr uintptr_t ClipsDescendants = 0x5A9;
         inline constexpr uintptr_t GuiState = 0x578;
         inline constexpr uintptr_t Interactable = 0x5AB;
-        inline constexpr uintptr_t LayoutOrder = 0x580;
+        inline constexpr uintptr_t LayoutOrder = 0x57C;
         inline constexpr uintptr_t Position = 0x510;
         inline constexpr uintptr_t Rotation = 0xE8;
         inline constexpr uintptr_t Selectable = 0x5AC;
-        inline constexpr uintptr_t SelectionOrder = 0x59C;
+        inline constexpr uintptr_t SelectionOrder = 0x598;
         inline constexpr uintptr_t Size = 0x530;
         inline constexpr uintptr_t SizeConstraint = 0x5A0;
         inline constexpr uintptr_t Visible = 0x5AD;
@@ -262,7 +262,7 @@ namespace offsets {
 
     namespace LocalScript {
         inline constexpr uintptr_t Bytecode = 0x190;
-        inline constexpr uintptr_t Hash = 0xD0;
+        inline constexpr uintptr_t Hash = 0x1A0;
     }
 
     namespace LruHolder {
@@ -319,7 +319,7 @@ namespace offsets {
 
     namespace ModuleScript {
         inline constexpr uintptr_t Bytecode = 0x138;
-        inline constexpr uintptr_t Hash = 0xD0;
+        inline constexpr uintptr_t Hash = 0x148;
         inline constexpr uintptr_t IsRobloxScript = 0x168;
     }
 
@@ -385,11 +385,11 @@ namespace offsets {
     }
 
     namespace ScriptContext {
-        inline constexpr uintptr_t RequireBypass = 0xA00;
+        inline constexpr uintptr_t RequireBypass = 0xB01;
     }
 
     namespace Seat {
-        inline constexpr uintptr_t Occupant = 0x210;
+        inline constexpr uintptr_t Occupant = 0x218;
     }
 
     namespace Sky {
@@ -419,7 +419,7 @@ namespace offsets {
         inline constexpr uintptr_t JobName = 0x18;
         inline constexpr uintptr_t JobStart = 0xC8;
         inline constexpr uintptr_t MaxFps = 0xB0;
-        inline constexpr uintptr_t Pointer = 0x8A44D68;
+        inline constexpr uintptr_t Pointer = 0x8ABD728;
     }
 
     namespace Team {
@@ -427,13 +427,13 @@ namespace offsets {
     }
 
     namespace Terrain {
-        inline constexpr uintptr_t GrassLength = 0x1E8;
-        inline constexpr uintptr_t MaterialColors = 0x4B0;
-        inline constexpr uintptr_t WaterColor = 0x1D8;
-        inline constexpr uintptr_t WaterReflectance = 0x1F0;
-        inline constexpr uintptr_t WaterTransparency = 0x1F4;
-        inline constexpr uintptr_t WaterWaveSize = 0x1F8;
-        inline constexpr uintptr_t WaterWaveSpeed = 0x1FC;
+        inline constexpr uintptr_t GrassLength = 0x1F0;
+        inline constexpr uintptr_t MaterialColors = 0x4B8;
+        inline constexpr uintptr_t WaterColor = 0x1E0;
+        inline constexpr uintptr_t WaterReflectance = 0x1F8;
+        inline constexpr uintptr_t WaterTransparency = 0x1FC;
+        inline constexpr uintptr_t WaterWaveSize = 0x200;
+        inline constexpr uintptr_t WaterWaveSpeed = 0x204;
     }
 
     namespace TextButton {
@@ -468,13 +468,13 @@ namespace offsets {
         inline constexpr uintptr_t Text = 0xB88;
         inline constexpr uintptr_t TextColor3 = 0xEA0;
         inline constexpr uintptr_t TextDirection = 0xD40;
-        inline constexpr uintptr_t TextScaled = 0xB71;
+        inline constexpr uintptr_t TextScaled = 0xD96;
         inline constexpr uintptr_t TextSize = 0xEC4;
         inline constexpr uintptr_t TextStrokeColor3 = 0xEAC;
         inline constexpr uintptr_t TextStrokeTransparency = 0xEC8;
         inline constexpr uintptr_t TextTransparency = 0xECC;
         inline constexpr uintptr_t TextTruncate = 0xED0;
-        inline constexpr uintptr_t TextWrapped = 0xD98;
+        inline constexpr uintptr_t TextWrapped = 0xD96;
         inline constexpr uintptr_t TextXAlignment = 0xED4;
         inline constexpr uintptr_t TextYAlignment = 0xCE8;
     }
@@ -493,7 +493,7 @@ namespace offsets {
     }
 
     namespace Types {
-        inline constexpr uintptr_t AllTypes = 0x8836AD8;
+        inline constexpr uintptr_t AllTypes = 0x88A8C88;
     }
 
     namespace UIGradient {
@@ -517,24 +517,24 @@ namespace offsets {
     }
 
     namespace VisualEngine {
-        inline constexpr uintptr_t Dimensions = 0xAE0;
-        inline constexpr uintptr_t FakeDataModel = 0xAC0;
-        inline constexpr uintptr_t Pointer = 0x82E2128;
-        inline constexpr uintptr_t RenderView = 0xC00;
-        inline constexpr uintptr_t ViewMatrix = 0x180;
+        inline constexpr uintptr_t Dimensions = 0xB10;
+        inline constexpr uintptr_t FakeDataModel = 0xAF0;
+        inline constexpr uintptr_t Pointer = 0x8351408;
+        inline constexpr uintptr_t RenderView = 0xC30;
+        inline constexpr uintptr_t ViewMatrix = 0x1B0;
     }
 
     namespace Workspace {
-        inline constexpr uintptr_t CurrentCamera = 0x498;
-        inline constexpr uintptr_t ReadOnlyGravity = 0x9C8;
-        inline constexpr uintptr_t World = 0x3F0;
+        inline constexpr uintptr_t CurrentCamera = 0x4B8;
+        inline constexpr uintptr_t ReadOnlyGravity = 0x9F0;
+        inline constexpr uintptr_t World = 0x410;
     }
 
     namespace World {
-        inline constexpr uintptr_t AirProperties = 0x238;
+        inline constexpr uintptr_t AirProperties = 0x240;
         inline constexpr uintptr_t Gravity = 0x228;
-        inline constexpr uintptr_t Primitives = 0x2A8;
-        inline constexpr uintptr_t WorldSteps = 0x720;
+        inline constexpr uintptr_t Primitives = 0x2B0;
+        inline constexpr uintptr_t WorldSteps = 0x728;
     }
 
 } // namespace offsets
