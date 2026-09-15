@@ -394,6 +394,7 @@ namespace Offsets {
          inline constexpr uintptr_t SetParent = 0x7E4470;
          inline constexpr uintptr_t This = 0x8;
          inline constexpr uintptr_t WhJobNopSlot = 0x10;
+         inline constexpr uintptr_t AttributeStorage = 0x40;
     }
 
     namespace Lighting {
