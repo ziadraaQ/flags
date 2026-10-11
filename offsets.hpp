@@ -7,8 +7,8 @@
 /*  Source code     : https://git.imtheo.lol/theo/RbxDumperV2   
 /*  Roblox Version  : version-cec3ad5889b447cf
 /*  Dumper Version  : 2.2.4
-/*  Dumped At       : 06:52 11/10/2026 (GMT)
-/*  Total Offsets   : 428
+/*  Dumped At       : 07:11 11/10/2026 (GMT)
+/*  Total Offsets   : 433
 /* -------------------------------------------------------------
 /*  Join the discord!                                           
 /*  https://offsets.imtheo.lol/discord                          
@@ -173,10 +173,14 @@ namespace Offsets {
          inline constexpr uintptr_t NearIntensity = 0xb4;
     }
 
+    namespace DeviceContextD3D11 {
+         inline constexpr uintptr_t VTableRva = 0x6d03670;
+    }
+
     namespace DeviceD3D11Gfx {
-         inline constexpr uintptr_t ContextObj = 0x1f8;
-         inline constexpr uintptr_t DevicePtr = 0x1c0;
-         inline constexpr uintptr_t SwapChainPtr = 0xc8;
+         inline constexpr uintptr_t ContextObj = 0x1b0;
+         inline constexpr uintptr_t DevicePtr = 0x178;
+         inline constexpr uintptr_t SwapChainPtr = 0x80;
          inline constexpr uintptr_t VTableRva = 0x6d03498;
     }
 
@@ -217,8 +221,10 @@ namespace Offsets {
     }
 
     namespace FastClusterEntity {
+         inline constexpr uintptr_t AlphaByte = 0x14;
          inline constexpr uintptr_t DecalMaterialPtr = 0x78;
          inline constexpr uintptr_t MaterialPtr = 0x70;
+         inline constexpr uintptr_t RenderQueueId = 0x10;
          inline constexpr uintptr_t VTableRva = 0x6d70ce8;
     }
 
@@ -504,6 +510,11 @@ namespace Offsets {
          inline constexpr uintptr_t FakeDataModel = 0x38;
          inline constexpr uintptr_t RealDataModel = 0x1f0;
          inline constexpr uintptr_t RenderView = 0x1e0;
+    }
+
+    namespace RenderQueue {
+         inline constexpr uintptr_t Opaque = 0x3;
+         inline constexpr uintptr_t Transparent = 0x9;
     }
 
     namespace RenderView {
